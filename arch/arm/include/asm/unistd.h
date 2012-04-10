@@ -405,6 +405,9 @@
 #define __NR_process_vm_readv		(__NR_SYSCALL_BASE+376)
 #define __NR_process_vm_writev		(__NR_SYSCALL_BASE+377)
 					/* 378 for kcmp */
+#define __NR_sched_setscheduler2	(__NR_SYSCALL_BASE+379)
+#define __NR_sched_setparam2		(__NR_SYSCALL_BASE+380)
+#define __NR_sched_getparam2		(__NR_SYSCALL_BASE+381)
 
 /*
  * The following SWIs are ARM private.
