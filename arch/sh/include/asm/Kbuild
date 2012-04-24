@@ -43,3 +43,4 @@ header-y += ptrace_32.h
 header-y += ptrace_64.h
 header-y += unistd_32.h
 header-y += unistd_64.h
+generic-y += math128.h

@@ -36,3 +36,4 @@ header-y += ucontext.h
 header-y += unistd.h
 
 generic-y += rwsem.h
+generic-y += math128.h
