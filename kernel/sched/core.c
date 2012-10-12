@@ -8090,7 +8090,7 @@ static u64 actual_dl_runtime(void)
 	if (dl_runtime == RUNTIME_INF)
 		return RUNTIME_INF;
 
-	return (dl_runtime * rt_runtime) / period;
+	return div64_u64 (dl_runtime * rt_runtime, period);
 }
 
 static int check_dl_bw(void)
